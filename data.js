@@ -65,9 +65,9 @@ console.log(isPalindrome('sas'));
 // hint: (
 // split reverse join metodlarını araşdırın )
 function reverseWord(str){
-  let words = str.split('');
+  let words = str.split(' ');
   let reversedWords = words.reverse();
-  let reversedStr = reversedWords.join('');
+  let reversedStr = reversedWords.join(' ');
   return reversedStr;
 }
 console.log(reverseWord("javascript öyrənmək maraqlıdır"));
